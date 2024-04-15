@@ -1,14 +1,18 @@
 import Head from "next/head";
 import Image from "next/image";
-import { Inter, Roboto, Montserrat, Epilogue } from "next/font/google";
+import { Poppins } from "next/font/google";
 import styles from "@/styles/Home.module.scss";
-const epilogue = Epilogue({ subsets: ["latin"] });
-import Button from "@/components/Button/Button";
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["600", "100", "200", "300", "400", "500", "700", "800", "900"],
+});
+
+import Main from "@/components/Main/Main";
 
 export default function Home() {
   return (
     <div className={styles.container}>
-      <Button>s</Button>
+      <Main />
     </div>
   );
 }

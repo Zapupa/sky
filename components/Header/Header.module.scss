@@ -1,0 +1,42 @@
+.wrapper {
+  height: 106.52px;
+  width: 100%;
+  border-bottom: 1px solid #fff;
+}
+
+.container {
+  height: 100%;
+  margin: 0 112.15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  // border: 1px solid red;
+}
+
+.links {
+  display: flex;
+  gap: 69.24px;
+
+  color: #fff;
+  font-size: 23.97px;
+  font-weight: 600;
+  text-align: left;
+  line-height: 140%;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.btns {
+  display: flex;
+  gap: 26.63px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.sacrifice {
+  width: 150px;
+}
