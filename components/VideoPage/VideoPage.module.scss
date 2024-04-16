@@ -1,0 +1,52 @@
+.bg {
+  max-width: 100%;
+  margin: 150px 0;
+  background-color: #f8f8f8;
+  // z-index: -100;
+}
+
+.page {
+  margin: 0 auto;
+  height: 740px;
+  max-width: 1144.67px;
+
+  // border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  gap: 22.09px;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  color: #1b1a1f;
+  font-size: 65px;
+  font-weight: 600;
+  text-align: left;
+  line-height: 150%;
+
+  width: 414px;
+}
+
+.desc {
+  color: #1b1a1f;
+  font-size: 22px;
+  font-weight: 400;
+  text-align: left;
+  line-height: 33px;
+
+  width: 483.67px;
+}
+
+.video {
+  width: 678.65px;
+  height: 358.62px;
+  transform: rotate(-6deg);
+}

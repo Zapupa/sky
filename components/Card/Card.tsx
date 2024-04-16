@@ -17,7 +17,9 @@ interface ICardProps {
 const Card = ({ title, oldPrice, newPrice, img }: ICardProps) => {
   return (
     <div className={styles.card}>
-      <Image className={styles.img} src={img} alt="img" />
+      <div className={styles.img_box}>
+        <Image className={styles.img} src={img} alt="img" />
+      </div>
       <div className={`${styles.main} ${poppins.className}`}>
         <div className={styles.title}>{title}</div>
         <div className={styles.price}>

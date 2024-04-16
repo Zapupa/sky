@@ -1,0 +1,38 @@
+.bg {
+  max-width: 100%;
+  margin: 150px 0;
+  background-color: #f8f8f8;
+}
+
+.page {
+  margin: 0 auto;
+  height: 1009px;
+  max-width: 1033px;
+
+  // border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  gap: 29px;
+  align-items: center;
+  justify-content: center;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 78px;
+}
+
+.title {
+  color: #1b1a1f;
+  font-size: 55px;
+  font-weight: 600;
+  text-align: left;
+  line-height: 140%;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 40.58px;
+}
