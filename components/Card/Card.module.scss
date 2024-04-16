@@ -1,0 +1,55 @@
+.card {
+  max-width: 299.99px;
+  min-height: 423.41px;
+  box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.5);
+}
+
+.img {
+  width: 299.99px;
+  height: 322px;
+  background-color: #f6f6f6;
+}
+
+.main {
+  height: 100.9px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 17px;
+
+  background-color: #ffffff;
+}
+
+.title {
+  color: #111010;
+  font-size: 23.42px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 23.4px;
+}
+
+.price {
+  display: flex;
+  gap: 5.76px;
+}
+
+.oldPrice {
+  vertical-align: top;
+  text-decoration: line-through;
+
+  color: #cacaca;
+  font-size: 10.81px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 10.8px;
+}
+
+.newPrice {
+  color: rgba($color: #111010, $alpha: 0.5);
+  font-size: 16.22px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 16.2px;
+}

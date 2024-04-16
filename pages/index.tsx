@@ -8,11 +8,13 @@ const poppins = Poppins({
 });
 
 import Main from "@/components/Main/Main";
+import Service from "@/components/Service/Service";
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Main />
+      <Service />
     </div>
   );
 }

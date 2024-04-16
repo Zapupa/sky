@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import { Poppins } from "next/font/google";
 import styles from "./Main.module.scss";
 const poppins = Poppins({

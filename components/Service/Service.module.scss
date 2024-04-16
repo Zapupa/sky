@@ -1,0 +1,43 @@
+.bg {
+  max-width: 100%;
+  margin-top: 186px;
+}
+
+.page {
+  margin: 0 auto;
+  max-width: 1284px;
+
+  // border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card {
+  display: flex;
+  gap: 20.72px;
+}
+
+.card_main {
+  display: flex;
+  flex-direction: column;
+  gap: 13.82px;
+  justify-content: center;
+  // border: 1px solid red;
+}
+
+.card_title {
+  color: #081323;
+  font-size: 27.63px;
+  font-weight: 600;
+  text-align: left;
+  line-height: auto;
+}
+
+.card_desc {
+  color: #828282;
+  font-size: 17.27px;
+  font-weight: 600;
+  text-align: left;
+  line-height: auto;
+}
