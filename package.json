@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@pbe/react-yandex-maps": "^1.2.5",
     "animejs": "^3.2.2",
     "effector": "^23.2.0",
     "effector-react": "^23.2.0",

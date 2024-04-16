@@ -14,6 +14,7 @@ import Gallery from "@/components/Gallery/Gallery";
 import Explore from "@/components/Explore/Explore";
 import Partnership from "@/components/Partnership/Partnership";
 import VideoPage from "@/components/VideoPage/VideoPage";
+import MapPage from "@/components/MapPage/MapPage";
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
       <Explore />
       <Partnership />
       <VideoPage />
+      <MapPage />
     </div>
   );
 }

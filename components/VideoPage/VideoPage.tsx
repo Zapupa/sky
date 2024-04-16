@@ -19,7 +19,7 @@ const VideoPage = () => {
             sint. Velit officia consequat duis enim velit mollit.
           </div>
         </div>
-        <video className={styles.video} controls autoPlay preload="none">
+        <video className={styles.video} controls preload="none">
           <source src="./videos/video.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
